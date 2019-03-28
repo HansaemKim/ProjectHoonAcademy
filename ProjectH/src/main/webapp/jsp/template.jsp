@@ -7,23 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-<table>
-	<tr>
-		<td>
-			수정수정수정
-			확인확인
-		</td>
-	</tr>
-	<tr>
-		<td>
-		
-		</td>
-	</tr>
-	<tr>
-		<td>
-		
-		</td>
-	</tr>
-</table>
+	<div align="center">
+		<div style=" width: 100%; background-color: black;">
+			<jsp:include page="top.jsp"></jsp:include>
+		</div>
+		<div style="display: inline-block; width: 1100px;">
+			<jsp:include page="${page }"></jsp:include>
+		</div>
+		<div style="background-color: blue;">
+			맨아래
+		</div>
+	</div>
 </body>
 </html>
