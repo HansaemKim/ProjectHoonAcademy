@@ -15,6 +15,16 @@
 		width: 220px;
 		color: white;
 	}
+	#information ul li{
+		display: inline-block;
+		list-style: none;
+		vertical-align: top;
+	}
+	#information ul li{
+		display: inline-block;
+		list-style: none;
+		vertical-align: top;
+	}
 </style>
 <title>Insert title here</title>
 </head>
@@ -52,10 +62,22 @@
 	<div style="height: 5%;">.</div>
 </div>
 <!-- 홈페이지 정보 -->
-<div style="background-color: black; border-top: 1px solid white">
-	<div style="display: inline-block;">
-		<img src="img/logo_white_2.png">
-	</div>
+<div id="information" style="background-color: blue; border-top: 1px solid white" align="center">
+	<div style="height: 5%; display: block;">.</div>
+	<ul>
+		<!-- 로고 -->
+		<li>
+			<img src="img/logo_white_2.png" style="width: 150px; height: 150px;">
+		</li>
+		<!-- 내용 -->
+		<li>
+			<ul>
+				<li>이용약관</li>
+				<li>Hoon Academy</li>
+			</ul>
+		</li>
+	</ul>
+	<div style="height: 5%; display: block;">.</div>
 </div>
 </body>
 </html>

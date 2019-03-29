@@ -14,7 +14,7 @@
 		<div style="display: inline-block; width: 1100px;">
 			<jsp:include page="${page }"></jsp:include>
 		</div>
-		<div style="background-color: blue;">
+		<div>
 			<jsp:include page="footer.jsp"></jsp:include>
 		</div>
 	</div>
