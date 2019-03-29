@@ -20,8 +20,7 @@
 		list-style: none;
 		vertical-align: top;
 	}
-	#information ul li{
-		display: inline-block;
+	#information ul li ul{
 		list-style: none;
 		vertical-align: top;
 	}
@@ -73,7 +72,9 @@
 		<li>
 			<ul>
 				<li>이용약관</li>
-				<li>Hoon Academy</li>
+			</ul>
+			<ul>
+				<li>ho</li>
 			</ul>
 		</li>
 	</ul>
