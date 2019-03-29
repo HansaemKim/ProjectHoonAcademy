@@ -64,7 +64,6 @@
 	.main_up_right {
 	   width: 50%;
 	   height: 430px;
-	   background-color: fuchsia;
 	   float:left;
 	   border-bottom-width:thin;
 	   border-bottom-color:rgba(25,80,100,0);
@@ -98,9 +97,22 @@
 	   input[id="tab03"]:checked ~ .con3 {display: block;}
 	   input[id="tab04"]:checked ~ .con4 {display: block;}
 	   input[id="tab05"]:checked ~ .con5 {display: block;}
+	   
+	.floating{
+		 position: fixed;
+		 right: 50%;
+		 margin-right: -675px;
+		 text-align:center;
+		 width: 120px;
+	}
 </style>
 </head>
 <body>
+
+<div class="floating" align="center">
+	<img  src="img/flo.jpg" style="width: 210px; height:490px; ">
+</div>
+
 <div align="center">
 	<!-- 사진슬라이드(한샘) -->
 	<div class="slide">
@@ -113,7 +125,7 @@
 		</ul>
 		<img id="next" src="img/right.png" alt="" width="50">
 	</div>
-	
+	<br>
 	<!-- 공지사항, 및 각버튼(병훈) -->
 	<div class="main_container" style="width: 1100px;">
 		<div class="tab_content">
@@ -133,10 +145,12 @@
 				<div class="conbox con4">컨텐츠 챕 내용04</div>
 			</div>
 		</div>
-		<div class="main_up_right">오른쪽 위</div>
-		
-		<div class="main_down_left" >
-			<div style="height: 30px;" ></div>
+		<div class="main_up_right">
+			<img src="img/subMain2.jpg" style="width: 550px; height: 430px;"/><br>
+			<img src="img/subMain.jpg" style="width: 550px; height: 400px;"/>
+		</div>
+		<div class="main_down_left">
+		<div style="height: 30px;" ></div>
 			<table>
 				<tr>
 					<td width="200px;" colspan="3" align="center">
@@ -149,7 +163,7 @@
 					</td>
 				</tr>
 			</table>
-			<div style="height: 30px;" ></div>
+			<div style="height: 30px;"></div>
 			<table>
 				<tr>
 					<td width="200px;" colspan="3" align="center">
@@ -163,10 +177,10 @@
 				</tr>
 			</table>
 		</div>
+		<br>
 		<div class="main_down_right">
 			<div style="height: 300px;"></div>
 			<div align="center">
-				<input type="button" value="상담/무료레슨 신청하기" style="width: 50%; height:60px; "/>
 			</div>
 		</div>
 	</div>
