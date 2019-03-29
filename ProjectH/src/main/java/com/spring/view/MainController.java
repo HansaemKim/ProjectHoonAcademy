@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MainController {
-
 	/*메인화면으로*/
 	@RequestMapping(value = "/main.do")
 	public String main(Model model) {

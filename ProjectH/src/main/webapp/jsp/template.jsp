@@ -15,7 +15,7 @@
 			<jsp:include page="${page }"></jsp:include>
 		</div>
 		<div style="background-color: blue;">
-			맨아래
+			<jsp:include page="footer.jsp"></jsp:include>
 		</div>
 	</div>
 </body>

@@ -116,7 +116,7 @@
 					<ul style="z-index: 3;">
 						<li><a href="#">공지사항</a></li>
 						<li><a href="#">Q&amp;A</a></li>
-						<li><a href="#">F&amp;A</a></li>
+						<li><a href="#">F&amp;Q</a></li>
 						<li><a href="#">사진&amp;동영상</a></li>
 					</ul>
 				</li>
