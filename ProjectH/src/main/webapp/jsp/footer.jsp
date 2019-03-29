@@ -25,7 +25,7 @@
 		vertical-align: top;
 	}
 </style>
-<title>Insert title here</title>
+<title>Insert title</title>
 </head>
 <body>
 <!-- 하단메뉴 -->
