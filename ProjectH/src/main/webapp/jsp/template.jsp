@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div align="center">
-		<div style=" width: 100%; background-color: black;">
+		<div>
 			<jsp:include page="top.jsp"></jsp:include>
 		</div>
 		<div style="display: inline-block; width: 1100px;">

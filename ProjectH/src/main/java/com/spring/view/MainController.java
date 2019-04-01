@@ -10,7 +10,6 @@ public class MainController {
 	@RequestMapping(value = "/main.do")
 	public String main(Model model) {
 		model.addAttribute("page","main.jsp");
-		
 		return "/jsp/template.jsp";
 	}
 }
