@@ -11,5 +11,6 @@ public class MainController {
 	public String main(Model model) {
 		model.addAttribute("page","main.jsp");
 		return "/jsp/template.jsp";
+		
 	}
 }
