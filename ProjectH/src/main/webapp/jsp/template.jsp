@@ -11,7 +11,7 @@
 		<div>
 			<jsp:include page="top.jsp"></jsp:include>
 		</div>
-		<div style="display: inline-block; width: 1100px;">
+		<div style="display: inline-block; width: 1000px;">
 			<jsp:include page="${page }"></jsp:include>
 		</div>
 		<div>

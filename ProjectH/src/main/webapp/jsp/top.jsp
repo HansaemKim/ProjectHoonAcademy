@@ -52,7 +52,7 @@
 	.fixedMenu{
 		position: fixed;
 		top:0px;
-		z-index: 4;
+		z-index: 9;
 		width: 100%;
 	}
 	#location ul li{
